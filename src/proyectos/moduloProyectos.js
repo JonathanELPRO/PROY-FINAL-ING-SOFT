@@ -1,5 +1,7 @@
-function sumar(a, b) {
-  return a + b;
+function datosFormulariosSonValidos(titulo, descripcion) {
+    if(titulo == ""){
+      return "Llene todos los campos"
+    }
 }
 
-export default sumar;
+export default datosFormulariosSonValidos;
