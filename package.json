@@ -7,7 +7,7 @@
     "start": "parcel index.html proyectos.html",
     "build": "parcel build index.html proyectos.html",
     "test": "jest --env=jsdom --watch",
-    "test-once": "jest --verbose --coverage",
+    "test-once": "jest --verbose --coverage --env=jsdom",
     "cypress": "cypress open",
     "cypress-run": "cypress run"
   },
