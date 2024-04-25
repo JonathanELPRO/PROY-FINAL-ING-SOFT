@@ -1,14 +1,14 @@
 function datosFormulariosSonValidos(titulo, descripcion) {
-  const div = document.querySelector("#resultado-div");
+  //const div = document.querySelector("#resultado-div");
   if (titulo == "" && descripcion == "") {
-      div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
-      return div.textContent;
+      //div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
+      return "Llene todos los campos";
 } else if (titulo == "") {
-      div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
-      return div.textContent;
+      //div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
+      return "Llene todos los campos"
 } else if (descripcion == "") {
-      div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
-      return div.textContent;
+      //div.innerHTML = "<p>" + "Llene todos los campos" + "</p>";
+      return "Llene todos los campos"
 } else {
     sessionStorage.setItem("titulo", titulo);
     sessionStorage.setItem("descripcion", descripcion);

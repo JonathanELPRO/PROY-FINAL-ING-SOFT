@@ -1,7 +1,8 @@
 // Importar la función que se va a probar
 import {crearProyecto,agregarProyectoAProyectos,mostrarProyectos} from "./moduloIndex.js"
 import Proyecto from "./Proyecto.js";
-
+// Simula el entorno del navegador usando jsdom
+//import 'jsdom-global/register';
 
 describe("crearProyecto", () => {
   it("Si no se capturo bien el titulo en el formulario deberia obtener un null en crear proyecto", () => {
